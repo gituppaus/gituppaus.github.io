@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <title>Kasauskaveri - Palvelut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="kuvat/kklogo.jpg" alt="Kasauskaveri logo" class="logo"></a>
+        <h1> </h1>
+        <br>
+        <nav class="nav">
+            <a href="index.html">Etusivu</a>
+            <a href="palvelut.html" class="active">Palvelut</a>
+            <a href="yhteys.html">Yhteystiedot</a>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <section class="main-content">
+            <!-- Siirrä painike osaksi main-content osaa -->
+            <div>
+                <button class="cta-button" onclick="handleClick1()">Varaa aika palveluun.</button>
+            </div>
+            <div class="text-container">
+                <section class="service-grid">
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="kuvat/kasausm.jpg" alt="Kuva tietokoneen kasaamisesta">
+                        </div>
+                        <div class="service-text">
+                            <h3>Tietokoneen kasaaminen</h3>
+                            <p>Hoidamme kaiken puolestasi. Tuo vain halutut osat meille tai tilaa ne kauttamme ilmoittamalla meille listan halutuista komponenteista. Huomioithan, että mäkäli haluat itse tuoda osat meille, varmista osien yhteensopivuus. Voit tarvittaessa olla meihin yhteydessä ja tarkistamme kanssasi osien yhteensopivuuden. Tarkistus kuuluu kasauksen hintaan.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="kuvat/opastusm.jpg" alt="Kuva koneen kasaamisen opastuksesta">
+                        </div>
+                        <div class="service-text">
+                            <h3>Opastus koneen kasaamiseen</h3>
+                            <p>Opastamme sinua, miten voit kasata koneen itse. Tuo meille komponentit, joita haluat käyttää, tai tilaa ne kauttamme. Mikäli haluat tilata osat kauttamme, ilmoitamme sinulle, kun osat ovat saapuneet ja sovimme kasausajan. Mikäli tuot itse osat, voit varata suoraan vapaana olevan ajan opastukseen.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="kuvat/kurssitm.jpg" alt="Kuva kasauksen kurssista">
+                        </div>
+                        <div class="service-text">
+                            <h3>Kasauskurssit</h3>
+                            <p>Mikäli et vielä ole ostamassa itsellesi uutta konetta, mutta haluaisit opetella kasaamaan koneen, voit tulla kurseillemme. Saat harjoitella tarjoamillamme osilla, ja kerromme tarkemmin kaikkien komponenttien vaikutuksesta kokoonpanon suorituskykyyn. Kurssilta saatujen tietojen ja käytännön harjoitusten avulla osaat myöhemmin ostaa yhteensopivan kokoonpanon ja kasata sen.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Kasauskaveri. Kaikki oikeudet pidätetään.</p>
+        <p><a href="mailto:info@kasauskaveri.fi" style="color: white;">info@kasauskaveri.fi</a></p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-button"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-button"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-button"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

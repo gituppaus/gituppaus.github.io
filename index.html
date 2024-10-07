@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <title>Kasauskaveri - Etusivu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Linkitetään ulkoinen CSS-tiedosto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome kuvakkeet -->
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="kuvat/kklogo.jpg" alt="Kasauskaveri logo" class="logo"></a> <!-- Logon lisääminen -->
+        <h1>Tervetuloa Kasauskaverin verkkosivuille</h1>
+        <nav class="nav">
+            <a href="index.html" class="active">Etusivu</a>
+            <a href="palvelut.html">Palvelut</a>
+            <a href="yhteys.html">Yhteystiedot</a>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <section class="main-content">
+            <div class="kuva-osio text-container">
+                <h2>Olemme kaverisi kaikenlaisissa tietokoneiden kasausprojekteissa.</h2>
+                <button class="cta-button" onclick="handleClick()">Palvelu valikoimamme</button>
+                <p>Voit ostaa meiltä tietokoneiden kasauspalvelua sekä kasauskursseja. Kurssit ovat erittäin hyödyllisiä mikäli haluat itse kasata tietokoneen, mutta kaipaat siihen opastusta.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Kasauskaveri. Kaikki oikeudet pidätetään.</p>
+        <p><a href="mailto:info@kasauskaveri.fi">info@kasauskaveri.fi</a></p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-button"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-button"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-button"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Linkitetään ulkoinen JS-tiedosto -->
+</body>
+</html>
